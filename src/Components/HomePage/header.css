@@ -5,3 +5,51 @@
 .navbar{
     font-family: cursive;
 }
+
+
+.nav-link.active {
+    color: #007bff;
+    font-weight: bold; 
+}
+
+
+.nav-link {
+    color: #6c757d; 
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+}
+
+/* Center the modal and text */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-body {
+    text-align: center;
+  }
+  
+  /* Active state for buttons */
+  .nav-link.active, .btn-active {
+    color: #007bff; /* Adjust color as needed */
+    font-weight: bold;
+  }
+  
+  /* Button styling */
+  .btn-active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #f8f9fa;
+    color: #6c757d;
+  }
+  
+  .text-center{
+    font-family: cursive;
+  }
